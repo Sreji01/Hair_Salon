@@ -1,0 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+package communication;
+
+/**
+ *
+ * @author Marko
+ */
+public enum Operacije {
+    PRIJAVI_FRIZER, ODJAVI_FRIZER, VRATI_LISTU_SVI_TIP_MUSTERIJE, KREIRAJ_MUSTERIJA, PROMENI_MUSTERIJA, VRATI_LISTU_MUSTERIJA, 
+    PRETRAZI_MUSTERIJA, OBRISI_MUSTERIJU, KREIRAJ_FRIZERSKI_SALON, VRATI_LISTU_SVI_FRIZER, VRATI_LISTU_SVI_MUSTERIJA,
+    VRATI_LISTU_SVI_USLUGA, KREIRAJ_EVIDENCIJA_TERMINA, PROMENI_EVIDENCIJA_TERMINA, VRATI_LISTU_EVIDENCIJA_TERMINA,
+    PRETRAZI_EVIDENCIJA_TERMINA, VRATI_LISTU_SVI_EVIDENCIJA_TERMINA;
+}
